@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[rpc_endpoints]
+sepolia = "${https://sepolia.infura.io/v3/b4f8a54917f948c3b47d8c0e9324d812}"
+
+[etherscan]
+sepolia = { key = "${7B3UNSW1KWEYKSD1TMQE3YE9IGZGGR13H4}" }
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
